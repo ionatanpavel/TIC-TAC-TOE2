@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>X0 game</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <!--   div id="table">
+    <div>
+      <div class="celula" id="cell1" onclick='assigncell1()'>
+        <img src="unu.png" />
+      </div>
+      <div class="celula" id="cell2" onclick='assigncell2()'>
+        <img src="unu.png" />
+      </div>
+      <div class="celula" id="cell3" onclick='assigncell3()'>
+        <img src="unu.png" />
+      </div>
+    </div>
+    <div>
+      <div class="celula" id="cell4" onclick='assigncell4()'>
+        <img src="unu.png" />
+      </div>
+      <div class="celula" id="cell5" onclick='assigncell5()'>
+        <img src="unu.png" />
+      </div>
+      <div class="celula" id="cell6" onclick='assigncell6()'>
+        <img src="unu.png" />
+      </div>
+    </div>
+    <div>
+      <div class="celula" id="cell7" onclick='assigncell7()'>
+        <img src="unu.png" />
+      </div>
+      <div class="celula" id="cell8" onclick='assigncell8()'>
+        <img src="unu.png" />
+      </div>
+      <div class="celula" id="cell9" onclick='assigncell9()'>
+        <img src="unu.png" />
+      </div>
+    </div>
+  </div  -->
+
+  <!-- p id="demo5">
+    a
+  </p  >
+  <button onclick="check()">Check</button -->
+
+  <!--p id="win">
+    winner
+  </p>
+  <button onclick="winn()">Winner</button>
+  <br /-->
+
+  <!--  button onclick="showX()">Show X</button>
+  <button onclick="show0()">Show 0</button>
+  <button onclick="showDraw()">Show draw</button  -->
+
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-3 titleSlide">
+
+      </div>
+      <div class="col">
+        <h1 id="ticTitle">TIC - TAC - TOE</h1>
+      </div>
+
+      <div class="col-3 titleSlide">
+
+      </div>
+      <button onclick="randomReset()" id="resetButtonMin" class="col-12 rButton">Reset</button>
+      <button onclick="" id="vsPCButtonMin" class="col-12 vsPCButton"> VS PC</button>
+    </div>
+    <div class="row">
+      <div class="col-1 col-lg-3" id="marginLeft">
+        <div>
+          <button onclick="randomReset()" id="resetButton" class="rButton">Reset</button>
+          <button onclick="" id="vsPCButton" class="vsPCButton"> VS PC</button>
+        </div>
+      </div>
+      <div class="col col-sm-12 col-md-12 col-lg-6">
+        <div id="row1">
+          <div class="cell">
+            <div class="text2"></div>
+            <div class="text" id="cell1" onclick='assigncell1()'></div>
+
+          </div>
+          <div class="cell">
+            <div class="text2"></div>
+            <div class="text" id="cell2" onclick='assigncell2()'></div>
+          </div>
+          <div class="cell">
+            <div class="text2"></div>
+            <div class="text" id="cell3" onclick='assigncell3()'></div>
+          </div>
+        </div>
+        <div id="row2">
+          <div class="cell">
+            <div class="text2"></div>
+            <div class="text" id="cell4" onclick='assigncell4()'></div>
+          </div>
+          <div class="cell">
+            <div class="text2"></div>
+            <div class="text" id="cell5" onclick='assigncell5()'></div>
+          </div>
+          <div class="cell">
+            <div class="text2"></div>
+            <div class="text" id="cell6" onclick='assigncell6()'></div>
+          </div>
+        </div>
+        <div id="row3">
+          <div class="cell">
+            <div class="text2"></div>
+            <div class="text" id="cell7" onclick='assigncell7()'></div>
+          </div>
+          <div class="cell">
+            <div class="text2"></div>
+            <div class="text" id="cell8" onclick='assigncell8()'></div>
+          </div>
+          <div class="cell">
+            <div class="text2"></div>
+            <div class="text" id="cell9" onclick='assigncell9()'></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-lg-3" id="rightSide">
+        <div class="winnPanel" id="winnX">
+          X is winner
+        </div>
+        <div class="winnPanel" id="winn0">
+          0 is winner
+        </div>
+        <div class="winnPanel" id="winnDraw">
+          Draw!
+        </div>
+      </div>
+    </div>
+    <div class="row">
+
+
+
+
+    </div>
+  </div>
+  <!-- button onclick="rowsCheck(); colsCheck(); allCheck(); diagPrincCheck(); diagSecCheck()">check</button>
+  <p id="demo1">
+    1
+  </p>
+
+  <p id="demo2">
+    2
+  </p>
+
+  <p id="demo3">
+    3
+  </p>
+
+  <p id="demo4">
+    4
+  </p>
+
+  <p id="demo5">
+    5
+  </p>
+
+  <p id="demo6">
+    6
+  </p-->
+
+</body>
+
+</html>
